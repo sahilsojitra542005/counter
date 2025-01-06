@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Counter from './counter';
+import Areas from './areas';
+
 
 function App() {
   return (
@@ -17,6 +20,9 @@ function App() {
         >
           Learn React 
         </a>
+        <Counter />
+        <Areas />
+        <br></br>
       </header>
     </div>
   );

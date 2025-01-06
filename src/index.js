@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Counter from './counter';
+// import Counter from './counter';
+// import Areas from './areas';
+
 
 
 
@@ -12,7 +14,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    <Counter />
+    {/* <Counter />
+    <Areas /> */}
   </React.StrictMode>
 );
 
